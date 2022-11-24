@@ -1,0 +1,83 @@
+
+
+.calculator {
+    background-color: lightskyblue;
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 200px !important;
+}
+
+.nums {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 10px;
+}
+
+input[type=text] {
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+#num1, #num2 {
+    display: grid;
+    place-items: center;
+}
+
+.symbol {
+    font-size: 2rem;
+    color: blue;
+    background-color: #fff;
+    width: 60px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.total {
+    font-size: 3rem;
+    color: #000;
+    background-color: #fff;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    opacity: 0.2;
+    border-radius: 3px;
+}
+
+.mathSymbols {
+    display: flex;
+    justify-content: space-around;
+}
+
+#add, #sub, #div, #mult {
+    font-size: 1.5rem;
+    color: blue;
+    width: 30px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.equalReset {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#reset, #equalTo {
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
